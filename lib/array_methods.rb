@@ -6,6 +6,7 @@ def find_element_index (array, value_to_find)
   counter = 0
   while array[counter] do
   counter += 1
+  if value not found, return nil
 end
   
 end 
